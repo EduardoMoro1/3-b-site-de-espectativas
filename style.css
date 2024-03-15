@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
 :root{
-    --cor-de-fundo: #242424; 
+    --cor-de-fundo: #000000; 
     --cor-de-contraste: #51ff00;
     --branco: #FFFFFF;
     --botao-ativo: #074b00;
     --botao-inativo: rgba(1, 29, 3, 0.5);
-    --texto-fundo: rgba(0, 44, 7, 0.3);
+    --texto-fundo: rgba(2, 36, 7, 0.74);
 }
 
 body{
@@ -67,31 +67,72 @@ body{
 }
 
 .aba-conteudo{
+    display: none;
+    background-color:var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+
+.aba-conteudo-ativo{
+    background-color:var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+    display: block;
+}
+
+.lista-plano-itens{
+    align-items: center;
+    display: inline;
+    padding: 23px;
+}
+
+.lista-curso-itens{
+    display: inline;
+    padding: 23px;
+}
+
+.lista-espectativas-itens{
+    display: inline;
+    padding: 23px;
+}
+
+.lista-empresa-itens{
+    display: inline;
+    padding: 23px;
     text-align: center;
-    background-color:var(--texto-fundo)
+}
+
+
+
+.titulo-primario{
+    text-align: center;
+    color: #51ff00;
+    text-transform: uppercase;
 }
 
 .aba-conteudo-titulo-principal{
+    font-size: 28px;
     text-align: center;
 }
 
 
 
 .aba-conteudo-titulo-secundario{
+    font-size: 28px;
     text-align: center;
 }
 
 
 .aba-conteudo-titulo-terciario{
+    font-size: 28px;
     text-align: center;
 }
 
 
 .aba-conteudo-titulo-quartenario{
+    font-size: 28px;
     text-align: center;
 }
-
-
 
 @media screen and (min-width: 768px) {
     .botoes{
