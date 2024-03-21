@@ -1,70 +1,121 @@
-<!----------------------------------------------------------------------------------------------------->
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>projetos-de-vida</title>
+    <title>Projeto de Vida</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<!----------------------------------------------------------------------------------------------------->
+<!-- __________________________________________________________________________________________________________________________ -->
 <body>
-    <section class="conteudo principal">
-    <h2 class="titulo-principal">Meus Objetivos do Ano<span>_</span></h2>
-    <div class="botoes">
-        <button class="botao ativo">Plano de Estudo</button>
-        <button class="botao">Cursos Técnicos</button>
-        <button class="botao">Criar meu Primeiro Site</button>
-        <button class="botao">Ser Contratado por uma Empresa</button>
-    </div>
-<!----------------------------------------------------------------------------------------------------->
-<div class="conteudo">
-    <div class="aba-conteudo-ativo">
-        <h3 class="aba-conteudo-titulo-principal">Aprofundar conhecimento das seguintes disciplinas</h3>
-            <div class="lista-plano">
-                <p class="lista-plano-itens">Matemática
-                <p class="lista-plano-itens">Português</p>
-                <p class="lista-plano-itens">Biologia</p>
-                <p class="lista-plano-itens">Química</p>
-                <p class="lista-plano-itens">Fisica</p>
-                <p class="lista-plano-itens">História</p>
-            <h4 class="titulo-primario">Tempo para completar o objetivo</h4>
+    <section class="conteudo-principal">
+        <h2 class="titulo-principal">Meu Projeto de Vida Para Esse Ano<span>:</span></h2>
+        <div class="conteudo">
+            <div class="botoes">
+                <button class="botao ativo">Plano de Estudo</button>
+                <button class="botao">Concluir Cursos</button>
+                <button class="botao">Criar meu Primeiro Site</button>
+                <button class="botao">Auto-avaliação do meu Currículo</button>
             </div>
-    </div>
-<!----------------------------------------------------------------------------------------------------->
-    <div class="aba-conteudo"> 
-        <h3 class="aba-conteudo-titulo-secundario">Cursos técnicos que desejo realizar</h3>
-            <div class="lista-cursos">
-                <p class="lista-curso-itens">Curso de Análise de Dados</p>
-                <p class="lista-curso-itens">Finalizar o Curso de Inglês</p>
-                <h4 class="titulo-secundario">Tempo para completar o objetivo</h4>
+<!-- __________________________________________________________________________________________________________________________ -->
+            <div class="abas-textos">
+                <div class="aba-conteudo ativo">
+                    <h3 class="aba-conteudo-titulo-principal">Aperfeiçoar conhecimentos nas matérias básicas</h3>
+                    <h4 class="aba-conteudo-titulo-secundario">Tempo para completar</h4>
+                    <div class="contador">
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="dias0"></p>
+                            <p class="contador-digito-texto">dias</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="horas0"></p>
+                            <p class="contador-digito-texto">horas</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="min0"></p>
+                            <p class="contador-digito-texto">minutos</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="seg0"></p>
+                            <p class="contador-digito-texto">segundos</p>
+                        </div>
+                    </div>
+                </div>
+<!-- __________________________________________________________________________________________________________________________ -->
+                <div class="aba-conteudo">
+                    <h3 class="aba-conteudo-titulo-principal">Finalizar meu Curso de Inglês e Programação</h3>
+                    <h4 class="aba-conteudo-titulo-secundario">Tempo para completar</h4>
+                    <div class="contador">
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="dias1"></p>
+                            <p class="contador-digito-texto">dias</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="horas1"></p>
+                            <p class="contador-digito-texto">horas</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="min1"></p>
+                            <p class="contador-digito-texto">minutos</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="seg1"></p>
+                            <p class="contador-digito-texto">segundos</p>
+                        </div>
+                    </div>
+                </div>
+<!-- __________________________________________________________________________________________________________________________ -->
+                <div class="aba-conteudo">
+                    <h3 class="aba-conteudo-titulo-principal">Criar um Site Responsivo, Organizado, Funcional e Bonito</h3>
+                    <h4 class="aba-conteudo-titulo-secundario">Tempo para completar</h4>
+                    <div class="contador">
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="dias2"></p>
+                            <p class="contador-digito-texto">dias</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="horas2"></p>
+                            <p class="contador-digito-texto">horas</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="min2"></p>
+                            <p class="contador-digito-texto">minutos</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="seg2"></p>
+                            <p class="contador-digito-texto">segundos</p>
+                        </div>
+                    </div>
+                </div>
+<!-- __________________________________________________________________________________________________________________________ -->
+                <div class="aba-conteudo">
+                    <h3 class="aba-conteudo-titulo-principal">Precisa ter Todos os Cursos Completos com Certificado</h3>
+                    <h4 class="aba-conteudo-titulo-secundario">Tempo para completar</h4>
+                    <div class="contador">
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="dias3"></p>
+                            <p class="contador-digito-texto">dias</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="horas3"></p>
+                            <p class="contador-digito-texto">horas</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="min3"></p>
+                            <p class="contador-digito-texto">minutos</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="seg3"></p>
+                            <p class="contador-digito-texto">segundos</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-    </div> 
-<!----------------------------------------------------------------------------------------------------->
-    <div class="aba-conteudo">  
-        <h3 class="aba-conteudo-titulo-terciario">Espectativas para meu primeiro site</h3>
-            <div class="lista-espectativas">
-                <p class="lista-espectativas-itens">Site Responsivo</p>
-                <p class="lista-espectativas-itens">Agradavel aos olhos</p>
-                <p class="lista-espectativas-itens">Contenha tudo o que eu quiser</p>
-                <h4 class="titulo-terciario">Tempo para completar o objetivo</h4>
-            </div>
-    </div>    
-<!----------------------------------------------------------------------------------------------------->
-    <div class="aba-conteudo"> 
-        <h3 class="aba-conteudo-titulo-quartenario">Meus critérios pessoais para ser contratado</h3>
-            <div class="lista-empresas">
-                <p class="lista-empresa-itens">Certificados dos cursos citados</p>
-                <p class="lista-empresa-itens">Conhecimento de todas as áreas que serão abordadas</p>
-                <p class="lista-empresa-itens">Faculdade completa</p>
-                <h4 class="titulo-quartenario">Tempo para completar o objetivo</h4>
-            </div>
-    </div>
-</div>
-<!----------------------------------------------------------------------------------------------------->
-</section>
+        </div>
+<!-- __________________________________________________________________________________________________________________________ -->
+    </section>
     <script src="main.js"></script>
-
 </body>
+
 </html>
